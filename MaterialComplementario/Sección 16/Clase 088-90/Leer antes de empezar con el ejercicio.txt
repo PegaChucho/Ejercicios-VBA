@@ -1,0 +1,7 @@
+Al revisar el material he detectado un problema con el ejercicio. Al abrir el documento se produce un error en tiempo de ejecución después de añadir el código que filtra los datos.
+
+Debe ser un problema de eventos del cuadro combinado lo que lo provoca pero no lo note mientras grababa los vídeos. Para las clases del ejercicio os he dejado el documento inicial de la clase 88 y el documento finalizado de la clase 90 en el que está solucionado el problema. 
+
+El problema sucedía cuando se cargaba el cuadro combinado, que al cargar las opciones provocaba un evento Change y se llama al código que filtra lo que acaba provocando el problema. No acabo de ver cual es la razón por la que sucede y lo que he hecho es controlar cuando se filtra. He creado un condicional que hace que solo se ejecute el procedimiento que filtra cuando realmente se camiba el valor del cuadro combinado y así evitamos esa situación.
+
+Tengo que investigar porque pasa esto y ver si hay otras posibles soluciones. Si las encuentro os iformaré.
